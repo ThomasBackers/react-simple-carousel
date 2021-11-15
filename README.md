@@ -1,5 +1,7 @@
 # Simple use:
 
+don't forget to give it a name and
+
 just push all your slides into slides prop e.g.:
 
 <Carousel name="homepage-carousel" slides={[
@@ -12,6 +14,4 @@ just push all your slides into slides prop e.g.:
 
 ]} />
 
-don't forget to give it a name
-
-stylesheet provided for demonstration purposes
+stylesheet & style prop provided for demonstration purposes
