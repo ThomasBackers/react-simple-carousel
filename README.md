@@ -9,7 +9,9 @@ just push all your slides into slides prop e.g.:
     <figure style={{ backgroundColor: "blue" }}></figure>,
 
     <figure style={{ backgroundColor: "green" }}></figure>
-    
+
 ]} />
+
+don't forget to give it a name
 
 stylesheet provided for demonstration purposes
