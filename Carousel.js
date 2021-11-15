@@ -72,7 +72,7 @@ const Carousel = ({ name, slides }) => {
         }
         let touchedSlideIndex, nextSlideIndex
         for (let slide of slides) {
-            if (slide === event.target) {
+            if (slide.contains(event.target)) {
                 touchedSlideIndex = slides.indexOf(slide)
                 if (touchedSlideIndex !== end)
                     nextSlideIndex = touchedSlideIndex + step
