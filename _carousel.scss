@@ -1,6 +1,9 @@
 .carousel {
     position: relative;
     height: 100vh;
+    .hidden {
+        display: none;
+    }
     &__screen {
         height: 100%;
         overflow: hidden;
